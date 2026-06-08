@@ -1,0 +1,8 @@
+package com.rushikesh.lab5.ex1;
+
+public class InvalidAgeException extends Exception {
+
+    public InvalidAgeException(String message) {
+        super(message);
+    }
+}
